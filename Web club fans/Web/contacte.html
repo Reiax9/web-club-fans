@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Xavi Garcia" >
+    <meta name="descripción" content="Peliculas, soperte">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cines Fans</title>
+    <link rel="shortcut icon" href="../Imagenes/iconPalomita.png" type="image/png">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="./agenda.html">Agenda</a>
+            <a href="./contacte.html">Contacto</a>
+            <a href="./fotos.html">Fotos</a>
+            <a href="./general.html">General</a>
+            <a href="./video.html">Video</a>
+            <a href="../index.html">Index</a>
+        </nav>
+    </header>
+    <main>
+        <section> <!--Contacto -->
+            <div>
+                <h2>CONTACTOS</h2>
+                <form action="../index.html" method="get"><br>
+                    <label for="Nombre">Nombre *</label>
+                    <input type="text" id="Nombre" name="Nombre" placeholder="Escriba su Nombre" required><br><br>
+                    <label for="Apellidos">Apellidos *</label>
+                    <input type="text" id="Apellidos" name="Apellidos" placeholder="Escriba sus Apellidos" required><br><br>
+                    <label for="Telefono">Telefono </label>
+                    <input type="text" name="Telefono" id="Telefono" placeholder="Introduzca su Telefono"><br><br>
+                    <label for="Correo">Correo Electronico *</label>
+                    <input type="text" name="Correo" id="Correo" placeholder="Escriba su Correo electronico" required><br><br>
+                    <label for="Contraseña">Contraseña *</label>
+                    <input type="password" id="Contraseña" name="Contraseña" placeholder="Escriba su Contraseña" required><br><br>
+                    <label for="Ciudad">Ciudad *</label>
+                    <input type="text" id="Ciudad" name="Ciudad" placeholder="Escriba su Ciudad" required><br><br>
+                    <label for="Mensaje">Mensaje *</label>
+                    <textarea name="Mensaje" id="Mensaje" cols="30" rows="10">Dejanos tu comentario...</textarea>
+                    <input type="submit" value="Enviar">
+                </form>
+            </div>
+        </section>
+        <br><br><br>
+        <section> <!-- Ubicación -->
+            <h2>Localizacion</h2>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2983.324077412717!2d2.276547461657101!3d41.60550323906859!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a4c7b97b5354c9%3A0x1c1d09f4b5da1ca6!2sC.%20Vic%2C%2030%2C%2008403%20Granollers%2C%20Barcelona!5e0!3m2!1ses!2ses!4v1664465062777!5m2!1ses!2ses" 
+            width="300" height="225" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+    </main>
+    <footer>
+        <p> Copyright &copy; 2022 Cines Fans S.L. Con todos los dereches reservados. Información de contacto: <a href="mailto:xgarciam@educem.com">xgarciam@educem.com</a></p>
+    </footer>
+</body>
+</html>
