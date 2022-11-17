@@ -7,26 +7,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cines Fans</title>
     <link rel="shortcut icon" href="./Imagenes/iconPalomita.png" type="image/png">
+    <link rel="stylesheet" href="./css/index.css">
 </head>
 <body>
     <header>
-        <img src="./Imagenes/Portadacine.jpeg" alt="Portada foto" width="1500" height="800">
+        <img class="portada" src="./Imagenes/Promo_esp_fiesta.jpg" alt="Portada foto">
         <nav>
-            <a href="./Web/agenda.html">Agenda</a>
-            <a href="./Web/contacte.html">Contacto</a>
-            <a href="./Web/fotos.html">Fotos</a>
-            <a href="./Web/general.html">General</a>
-            <a href="./Web/video.html">Video</a>
-            <a href="./index.html">Index</a>
+            <div>
+                <a href="./index.html">Index</a>
+                <a href="./Web/general.html">General</a>
+                <a href="./Web/fotos.html">Fotos</a>
+                <a href="./Web/video.html">Video</a>
+                <a href="./Web/agenda.html">Agenda</a>
+                <a href="./Web/contacte.html">Contacto</a>
+            </div>
         </nav>
     </header>
     <main> 
         <section>
-            <div>
+            <div id="registro">
                 <h1>Fiesta del cine</h1>
                 <p>Esta semana desde 3 de Octubre del 2022 hasta el dia 10 orfecemos el 50% de descuento en entradas.</p>
-                <h2>Registrarse</h2>
                 <form action="./Web/general.html" method="get">
+                    <h2>Registrarse</h2>
                     <label for="Nombre">Nombre:</label>
                     <input type="text" id="Nombre" name="Nombre" required><br><br>
                     <label for="Apellidos">Apellidos:</label>
@@ -35,20 +38,19 @@
                     <input type="text" name="Correo" id="Email" required><br><br>
                     <label for="Contrasena">Contraseña:</label>
                     <input type="password" id="Contrasena" name="Contraseña" required><br><br>
-                    <input type="submit" value="Registrarse">
+                    <input class="submit" type="submit" value="Registrarse">
                 </form>
             </div>
         </section>
-        <br><br><br>
         <section>
-            <div>
-                <h2>Iniciar sesion</h2>
+            <div id="registro">
                 <form action="./Web/general.html" method="get">
+                    <h2>Iniciar sesion</h2>
                     <label for="Correo">Correo Electronico:</label>
                     <input type="text" name="Correo" id="Correo" required><br><br>
                     <label for="Contraseña">Contraseña:</label>
                     <input type="password" id="Contraseña" name="Contraseña" required><br><br>
-                    <input type="submit" value="Entrar">
+                    <input class="submit" type="submit" value="Entrar">
                 </form>
             </div>
         </section>

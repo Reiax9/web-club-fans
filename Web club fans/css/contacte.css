@@ -1,0 +1,78 @@
+#formulario h2{
+    text-align: center;
+    margin-top: 4vh;
+    font-size: 50px;
+    font-weight: normal;
+    margin-bottom: 1vh;
+}
+
+#formulario form{
+    width: 35vw;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    background-color: whitesmoke;
+    border: solid 5px black;
+
+    border-radius: 20px;
+}
+
+#formulario input{
+    
+    padding:8px;
+    width: 15vw;
+}
+
+#formulario input:focus{
+    border-color: aqua;
+    border-width: 5px;
+    background: whitesmoke;
+    color: black;
+}
+
+#formulario label{
+    margin-left: 2vw;
+    display:inline-block;
+    width: 200px;
+}
+
+.textarea{
+    padding:8px;
+    margin-left: 15.5vw;
+    display: block;
+    width: 15vw;
+    height: 15vh;
+}
+
+.submit{
+    margin-left: 42%;
+    margin-top: 35px;
+    margin-bottom: 20px;
+
+    width: 5vw !important;
+}
+
+
+#ubicacion{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    
+}
+
+#ubicacion h2{
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 20px;
+    font-weight: normal;   
+}
+
+#ubicacion iframe{
+    
+    position: relative;
+    margin-left: 23vw;
+
+    width: 50vw;
+    height: 75vh;
+
+}

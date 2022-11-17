@@ -1,0 +1,67 @@
+#titulo h1{
+    margin-top: 2vh;
+    margin-bottom: 3vh;
+    font-size: 70px;
+    font-weight:normal;
+}
+
+#titulo p{
+    margin: auto;
+    padding: auto;
+    font-size: 24px;
+    margin-bottom: 50px;
+}
+
+#imagenes {
+    border: solid 2px black;
+    background: linear-gradient(45deg,blue, red);
+    box-shadow: 5px 5px 24px;
+    border-radius: 10px;
+}
+
+#imagenes h2{
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+
+    text-align: center;
+
+    font-size: 70px;
+    font-weight: bold;
+}
+
+#imagenes img{
+    margin:5px;
+
+    width: 15.8%;
+    height: 300px;
+
+    border-radius: 5px;
+}
+
+.enlace {
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.enlace a:link{
+    text-decoration: none;
+    color: dodgerblue;
+}
+
+.enlace a:visited{
+    text-decoration: none;
+    color: rgb(221, 0, 255);
+}
+
+.enlace a:hover{
+    text-decoration: none;
+    color: rgb(30, 255, 45);
+}
+
+.enlace a:active{
+    text-decoration: none;
+    color: rgb(255, 30, 30);
+}

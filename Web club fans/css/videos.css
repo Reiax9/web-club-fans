@@ -1,0 +1,54 @@
+#titulo{
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+}
+
+#titulo h1{
+    font-size: 60px;
+    font-weight: bolder;
+    margin-bottom: 5vh;
+}
+
+#titulo p{
+    font-size: 30px;
+    margin-bottom: 5vh;
+}
+
+#videos{
+    padding:2%;
+    border-radius: 40px;
+    margin-bottom: 5vh;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 50px violet;
+    
+}
+#videos h3{
+    margin-bottom: 3vh;
+
+    text-align: center;
+    font-size: 40px;
+    font-weight: bolder;
+
+    text-shadow: 0 0 5px #bf00ff;
+}
+#videos p{
+    margin-bottom: 10vh;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+
+    box-shadow: 0px -15px 1px;
+    border: solid 3px black;
+    text-align: center;
+    width: 43.9vw;
+    background-color: whitesmoke;
+}
+
+#videos video,iframe{
+    margin-left: 25%;
+    
+
+    width: 50%;
+    height: 60vh;
+}
+

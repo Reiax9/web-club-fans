@@ -1,0 +1,134 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+img{
+    width: 100%;
+    height: 75vh;
+    margin-bottom: 10px;    
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    background-image: url(../Imagenes/Fondo.jpg); 
+    background-repeat: none;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+
+header{
+    border: solid 1px black;
+    background-color: rgb(121, 255, 255);
+    padding-bottom: 1%;
+}
+
+nav a:first-child{
+    margin-left: 5vh;
+}
+
+nav a:link{
+    padding: 7px;
+    color: black;
+    text-decoration: none;
+    background:rgb(121, 255, 255);
+}
+
+nav a:visited {
+    color: rgb(255, 0, 119);
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: rgb(0, 255, 81);
+    text-decoration: none;
+} 
+
+
+nav a:active {
+    color: rgb(208, 0, 255);
+    text-decoration: none;
+}
+
+main{
+    padding-top: 3vh;
+    margin-left: 2vw;
+}
+
+#registro h1{
+    font-weight: bolder;
+    font-size: 70px;
+
+    color: cyan;
+    text-shadow: -3px 0 black, 0 3px black, 3px 0 black, 0 -3px black;
+    
+}
+#registro p{
+    font-size: 30px;
+    text-shadow: 0px 0px 7px cyan;
+}
+#registro form{
+    width: 29vw;
+    margin-top: 3vh;
+    padding: 50px;
+    
+
+    border: solid 1px black;
+    background-color: rgb(162, 255, 250);
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 5px 5px 5px;
+
+    line-height: 1.5vh;
+}
+
+#registro input{
+    
+    padding: 5px;
+    width: 13vw;
+    margin-left: 0px;
+    
+}
+
+#registro input:focus{
+    border-color: aqua;
+    border-width: 5px;
+    background: whitesmoke;
+    color: black;
+}
+
+#registro label {
+    display: inline-block;
+    width: 200px;
+}
+
+#registro h2{
+    margin-bottom: 6vh;
+    text-align: center;
+}
+
+.submit {
+    background-image: linear-gradient(to top,aquamarine,violet);
+    border-color: aqua;
+    color: black;
+    border-radius: 15px;
+    box-shadow: aqua;
+    margin-top: 20px;
+    width: 5vw !important;
+}
+
+footer {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    margin-top: 50px;
+
+    text-align: center;
+    background-color: black;
+    color: whitesmoke;
+}
+
+footer a{
+    text-decoration: none;
+    color: violet;
+}
